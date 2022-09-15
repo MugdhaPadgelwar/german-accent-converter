@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=PT+Sans+Caption&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'PT Sans Caption', sans-serif;
+   
+    
+}
+:root{
+    --primary-color:#18181b;
+}
+
+h1{
+    color: beige;
+}
+
+
+textarea{
+    width: 50%;
+    height: 10vh;
+    display: block;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem ;
+
+}
+
+#output{
+    width:50%;
+    border:solid black;
+    height: 10vh;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+    
+}
+
+p{
+    text-align: center;
+}
+
+
+.nav-bar{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.btn-design{
+        margin-bottom: 2rem;
+        max-width: 160px;
+        background-color: var(--primary-color);
+        height: 4vh;
+        margin: auto;
+        display: block;
+        cursor: pointer;
+        color: beige;
+        border: 2px solid beige;
+
+}
+
+.nav-text{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.foot-design{
+    background-color: var(--primary-color);
+    padding:2.5rem;
+    border-top-left-radius: 1rem;
+    margin-bottom: none;
+    display: block;
+}
+.foot-head{
+    text-align: center;
+    padding: none;
+    color: beige;
+
+}
+
+.foot-text{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: beige;
+}
